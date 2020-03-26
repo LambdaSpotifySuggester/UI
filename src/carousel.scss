@@ -7,13 +7,21 @@
   @media (max-width: 800px) {
     height: 400px;
   } // end @media
+  @media (max-width: 500px) {
+    height: 200px;
+  } // end @media
+}
+.carousel-item {
+  backface-visibility: visible !important;
+  display: block;
+  
 }
 .carousel-caption {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  
   h3 {
     font-size: 5rem;
     font-family: $carouselHeadlineText;
@@ -21,8 +29,15 @@
       font-size: 4rem;
     } // end @media
     @media (max-width: 800px) {
-      font-size: 3rem;
+      font-size: 3.5rem;
     } // end @media
+    @media (max-width: 500px) {
+      font-size: 2rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    } // end @media
+    
+    
   } // end h3
 
   p {
@@ -30,11 +45,25 @@
     padding: 3% 0 2%;
     font-family: $carouselText;
     @media (max-width: 800px) {
-      font-size: 2.4rem;
+      font-size: 1.6rem;
       @media (max-width: 800px) {
         padding-bottom: 10%;
       } // end @media
     } // end @media
+    @media (max-width: 500px) {
+      font-size: 1.4rem;
+      margin-bottom: 70%;
+      margin-top: 0;
+      padding-top: 1%;
+    } // end @media
+    
   } // end p
 }
-
+.carousel-indicators {
+  @media (max-width: 500px) {
+      margin-bottom: 0;
+  } // end @media
+}
+.carousel-caption.d-none, .d-md-block{
+  display: flex!important;
+}

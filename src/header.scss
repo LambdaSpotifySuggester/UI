@@ -2,15 +2,36 @@
   @include flexDisplay(space-between, center, row);
   margin: 15% auto 10%;
   width: 80%;
+  @media (max-width: 500px) {
+    margin: 25% auto 5%;
+    width: 95%;
+  }
 
   .text-wrapper {
     @include textWrapper;
+    h2 {
+      @media (max-width: 800px) {
+        font-size: 3.5rem;
+      } // end @media
+    } // end h2
+    h3 {
+      @media (max-width: 500px) {
+        font-size: 3rem;
+      } // end @media
+    }
   } // end .text-wrapper
 
   button.start-btn {
     @include button;
     @media (max-width: 800px) {
       margin-top: 35%;
+    } // end @media
+    @media (max-width: 500px) {
+      width: 150px;
+      height: 40px;
+      border-radius: 0px;
+      margin-right: 8%;
+      margin-top: 40%;
     } // end @media
   } // end button.start
 }

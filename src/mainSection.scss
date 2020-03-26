@@ -3,6 +3,9 @@
   @media (max-width: 800px) {
     height: 600px;
   } // end @media
+  @media (max-width: 500px) {
+      height: 235px;
+  } // end @media
 
   .try-it-section {
     @include flexDisplay(space-between, center, row);
@@ -17,15 +20,24 @@
         @media (max-width: 800px) {
           font-size: 3.5rem;
         } // end @media
+        @media (max-width: 500px) {
+          font-size: 2rem;
+          margin: 25% 15% 0;
+        } // end @media
       } // end h2
       @media (max-width: 800px) {
         margin-top: 3%;
       } // end @media
+      
       h3 {
         @media (max-width: 800px) {
           font-size: 2.6rem;
         } // end @media
-      }
+        @media (max-width: 500px) {
+          font-size: 1.5rem;
+          margin-left: 30%;
+        } // end @media
+      } // end h3
     } // end .text-wrapper
     @media (max-width: 800px) {
       margin: 2%;
@@ -36,6 +48,13 @@
       @media (max-width: 800px) {
         width: 175px;
         margin-top: 15%;
+      } // end @media
+      @media (max-width: 500px) {
+        width: 100px;
+        height: 30px;
+        border-radius: 0px;
+        font-size: 1.5rem;
+        margin-top: 25%;
       } // end @media
     } // end button.try-it
 
