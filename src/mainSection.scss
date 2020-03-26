@@ -1,10 +1,8 @@
 .main-container {
-  height: 900px;
-  @media (max-width: 800px) {
-    height: 600px;
-  } // end @media
-  @media (max-width: 500px) {
-      height: 235px;
+  
+
+  @media (max-width: 600px) {
+    height: 235px;
   } // end @media
 
   .try-it-section {
@@ -12,15 +10,22 @@
     margin: 4% auto;
     width: 80%;
 
+    @media (max-width: 1000px) {
+      margin: 0 auto;
+    } // end @media
+
     .text-wrapper {
       @include textWrapper;
       margin-top: 8%;
       h2 {
         font-family: $smallHeadline;
+        @media (max-width: 1000px) {
+          font-size: 4.5rem;
+        } // end @media
         @media (max-width: 800px) {
           font-size: 3.5rem;
         } // end @media
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
           font-size: 2rem;
           margin: 25% 15% 0;
         } // end @media
@@ -28,12 +33,15 @@
       @media (max-width: 800px) {
         margin-top: 3%;
       } // end @media
-      
+
       h3 {
+        @media (max-width: 1000px) {
+          font-size: 3rem;
+        } // end @media
         @media (max-width: 800px) {
           font-size: 2.6rem;
         } // end @media
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
           font-size: 1.5rem;
           margin-left: 30%;
         } // end @media
@@ -49,7 +57,7 @@
         width: 175px;
         margin-top: 15%;
       } // end @media
-      @media (max-width: 500px) {
+      @media (max-width: 600px) {
         width: 100px;
         height: 30px;
         border-radius: 0px;
@@ -57,6 +65,5 @@
         margin-top: 25%;
       } // end @media
     } // end button.try-it
-
   }
 } // end .body-container

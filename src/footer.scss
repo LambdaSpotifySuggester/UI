@@ -8,11 +8,11 @@
   @media (max-width: 800px) {
     height: 300px;
   } // end @media
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
       padding: 0;
   } // end @media
   .logo {
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       margin: 40% auto 0;
     } // end .logo
 
@@ -25,7 +25,7 @@
     @media (max-width: 800px) {
       margin: 0;
     } // end @media
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       flex-direction: column-reverse;
     } // end @media
 
@@ -34,7 +34,7 @@
       @media (max-width: 800px) {
         justify-content: space-evenly;
       } // end @media
-      @media (max-width: 500px) {
+      @media (max-width: 600px) {
         width: 100%;
         } // end @media
       a {
@@ -44,7 +44,7 @@
         @media (max-width: 800px) {
           font-size: 1.7rem;
         } // end @media
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
           font-size: 1.5rem;
         } // end @media
         
@@ -61,7 +61,7 @@
       padding: 5%;
       color: white;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       font-size: 3rem;
       margin: 2% auto 0;
     } // end @media
