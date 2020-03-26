@@ -5,19 +5,31 @@
   padding: 7%;
   @include logo;
   @include flexDisplay(space-around, flex-start, column);
+  @media (max-width: 800px) {
+    height: 300px;
+  } // end @media
 
   .footer-nav {
     width: 100%;
     margin: 10% 10% 0;
     @include flexDisplay(space-around, center, row);
     color: white;
+    @media (max-width: 800px) {
+      margin: 0;
+    } // end @media
 
     .footer-links {
       @include flexDisplay(flex-start, flex-start, row);
+      @media (max-width: 800px) {
+        justify-content: space-evenly;
+      } // end @media
       a {
         white-space: nowrap;
         font-size: 2rem;
         padding: 3%;
+        @media (max-width: 800px) {
+          font-size: 1.7rem;
+        } // end @media
       }
     } // end .about-us, .helpful-links
   } // end .footer-nav

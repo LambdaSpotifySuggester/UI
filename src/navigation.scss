@@ -4,22 +4,33 @@
   position: fixed;
   top: 0;
   background-color: $blackTransparant;
+  @media (max-width: 800px) {
+    height: 100px
+  } // end media
 
   .navigation {
     width: 90%;
     margin: 0 auto;
     @include flexDisplay(space-between, center, row);
+    @media (max-width: 800px) {
+      flex-direction: column;
+    } // end media
 
     @include logo;
 
     nav {
       @include flexDisplay(flex-end, center, row);
       white-space: nowrap;
+      @media (max-width: 800px) {
+        display: block;
+      } // end media
+      
 
       a {
         font-size: 1.6rem;
         padding: 2%;
         color: white;
+        
       } // end a
 
       .login-sign-up {

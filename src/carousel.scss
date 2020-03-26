@@ -3,7 +3,11 @@
   width: 100%;
   background-color: $blackTransparant;
 } // end .carousel-bg-img
-
+.carousel-inner {
+  @media (max-width: 800px) {
+    height: 400px;
+  } // end @media
+}
 .carousel-caption {
   display: flex;
   flex-direction: column;
@@ -13,11 +17,24 @@
   h3 {
     font-size: 5rem;
     font-family: $carouselHeadlineText;
+    @media (max-width: 1200px) {
+      font-size: 4.5rem;
+    } // end @media
+    @media (max-width: 800px) {
+      font-size: 3.5rem;
+    } // end @media
   } // end h3
 
   p {
     font-size: 3rem;
     padding: 3% 0 2%;
     font-family: $carouselText;
+    @media (max-width: 800px) {
+      font-size: 2.4rem;
+      @media (max-width: 800px) {
+        padding-bottom: 10%;
+      } // end @media
+    } // end @media
   } // end p
 }
+

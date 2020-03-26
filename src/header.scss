@@ -6,9 +6,11 @@
   .text-wrapper {
     @include textWrapper;
   } // end .text-wrapper
-  
+
   button.start-btn {
     @include button;
-    // end .start
-  }
+    @media (max-width: 800px) {
+      margin-top: 35%;
+    } // end @media
+  } // end button.start
 }
