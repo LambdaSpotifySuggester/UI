@@ -12,6 +12,7 @@
       color: white;
       white-space: nowrap;
       padding: 1%;
+      font-family: $logoFont;
     }
   } // end logo
 }
@@ -45,7 +46,7 @@
     font-size: 6rem;
     color: white;
     margin: 0;
-    font-family: $mainHeadline;
+    font-family: $logoFont;
   } // end h1
 
   h3 {
