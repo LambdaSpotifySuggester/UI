@@ -5,10 +5,10 @@
   top: 0;
   background-color: $blackTransparant;
   @media (max-width: 800px) {
-    height: 100px
+    height: 100px;
   } // end media
   @media (max-width: 500px) {
-    height: 80px
+    height: 70px;
   } // end media
 
   .navigation {
@@ -27,13 +27,17 @@
       @media (max-width: 800px) {
         display: block;
       } // end media
-      
+      @media (max-width: 500px) {
+        font-size: 1.2rem;
+      } // end media
 
       a {
         font-size: 1.6rem;
         padding: 2%;
         color: white;
-        
+        @media (max-width: 500px) {
+          font-size: 1.4rem;
+        } // end media
       } // end a
 
       .login-sign-up {

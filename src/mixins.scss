@@ -8,7 +8,7 @@
       color: white;
       line-height: 1.3;
       @media (max-width: 500px) {
-        font-size: 2rem;
+        font-size: 2.5rem;
       } // end @media
     } // end i
 
@@ -18,6 +18,9 @@
       white-space: nowrap;
       padding: 1%;
       font-family: $logoFont;
+      @media (max-width: 500px) {
+        font-size: 2rem;
+      } // end media
     }
   } // end logo
 }
