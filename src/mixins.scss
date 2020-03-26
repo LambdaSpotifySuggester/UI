@@ -2,7 +2,6 @@
   .logo {
     @include flexDisplay(flex-start, center, row);
     @media (max-width: 500px) {
-        margin: 25% auto 0;
     } // end @media
     i {
       font-size: 5rem;

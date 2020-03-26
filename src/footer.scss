@@ -11,7 +11,12 @@
   @media (max-width: 500px) {
       padding: 0;
   } // end @media
+  .logo {
+    @media (max-width: 500px) {
+      margin: 25% auto 0;
+    } // end .logo
 
+  }
   .footer-nav {
     width: 100%;
     margin: 10% 10% 0;
