@@ -1,0 +1,14 @@
+.header {
+  @include flexDisplay(space-between, center, row);
+  margin: 15% auto 10%;
+  width: 80%;
+
+  .text-wrapper {
+    @include textWrapper;
+  } // end .text-wrapper
+  
+  button.start-btn {
+    @include button;
+    // end .start
+  }
+}

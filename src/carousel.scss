@@ -1,0 +1,23 @@
+.carousel-bg-img {
+  height: 450px;
+  width: 100%;
+  background-color: $blackTransparant;
+} // end .carousel-bg-img
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 5rem;
+    font-family: $carouselHeadlineText;
+  } // end h3
+
+  p {
+    font-size: 3rem;
+    padding: 3% 0 2%;
+    font-family: $carouselText;
+  } // end p
+}

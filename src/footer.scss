@@ -1,0 +1,35 @@
+.footer {
+  background-color: black;
+  height: 510px;
+  width: 100%;
+  padding: 7%;
+  @include logo;
+  @include flexDisplay(space-around, flex-start, column);
+
+  .footer-nav {
+    width: 100%;
+    margin: 10% 10% 0;
+    @include flexDisplay(space-around, center, row);
+    color: white;
+
+    .footer-links {
+      @include flexDisplay(flex-start, flex-start, row);
+      a {
+        white-space: nowrap;
+        font-size: 2rem;
+        padding: 3%;
+      }
+    } // end .about-us, .helpful-links
+  } // end .footer-nav
+  .social {
+    width: 20%;
+
+    @include flexDisplay(center, center, row);
+
+    i {
+      font-size: 4rem;
+      padding: 5%;
+      color: white;
+    }
+  } // end social
+}

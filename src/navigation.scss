@@ -1,0 +1,36 @@
+.nav-wrapper {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: $blackTransparant;
+
+  .navigation {
+    width: 90%;
+    margin: 0 auto;
+    @include flexDisplay(space-between, center, row);
+
+    @include logo;
+
+    nav {
+      @include flexDisplay(flex-end, center, row);
+      white-space: nowrap;
+
+      a {
+        font-size: 1.6rem;
+        padding: 2%;
+        color: white;
+      } // end a
+
+      .login-sign-up {
+        color: $orange;
+      } // end .login-sign-up
+
+      span {
+        font-size: 1.7rem;
+        padding: 3%;
+        color: white;
+      } // end span
+    } // end nav
+  } // end .navigation
+}

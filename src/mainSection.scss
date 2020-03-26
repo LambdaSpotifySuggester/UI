@@ -1,0 +1,21 @@
+.main-container {
+  height: 900px;
+
+  .try-it-section {
+    @include flexDisplay(space-between, center, row);
+    margin: 4% auto;
+    width: 80%;
+
+    .text-wrapper {
+      @include textWrapper;
+      margin-top: 8%;
+      h2 {
+        font-family: $smallHeadline;
+      } // end h2
+    } // end .text-wrapper
+    button.try-it {
+      @include button;
+      margin: 7% 0 0;
+    } // end button.try-it
+  }
+} // end .body-container
