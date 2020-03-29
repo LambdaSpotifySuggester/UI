@@ -13,8 +13,8 @@ function Navigation() {
           <a>Download</a>
           <a>Help</a>
           <span>||</span>
-          <a className='login-sign-up'>Log In</a>
-          <a className='login-sign-up'>Sign up</a>
+          <a href='http://spotifysuggesterapp.herokuapp.com/login' className='login-sign-up'>Log In</a>
+          <a href='http://spotifysuggesterapp.herokuapp.com/signup' className='login-sign-up'>Sign up</a>
         </nav>
       </div>
     </div>
