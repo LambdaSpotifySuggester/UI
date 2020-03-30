@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="logo">
-        <i class="fab fa-spotify"></i>
+      <i class="fas fa-headphones-alt"></i>
         <span className="logo-text">Isolation Recommendtions</span>
       </div>
       <div className="footer-nav">

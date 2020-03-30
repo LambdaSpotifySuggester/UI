@@ -5,7 +5,7 @@ function Navigation() {
     <div className="nav-wrapper">
       <div className='navigation'>
         <div className="logo">
-          <i class="fab fa-spotify"></i>
+        <i class="fas fa-headphones-alt"></i>
           <span className='logo-text'>Isolation Recommendtions</span>
         </div>
         <nav>
